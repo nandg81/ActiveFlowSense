@@ -13,15 +13,13 @@ iii. ControllerActiveZero .py : ActiveFlowSense algorithm is implemented in this
 iv. TopologyFirst .py : Topology involving 3 hosts and 2
 v. TopologySecond .py : Topology involving 5 hosts and 3 switches.
 2. The code was implemented and tested on Mininet 2.3.0 and POX controller installed on Ubuntu 18.04 on VirtualBox. So first, Mininet and POX needs to be installed in VirtualBox.
-3. To run the controller file, place it in the misc folder in po x (other folders are also fine, but misc is given as an example)
-ie, place the controller file in ~/pox/pox/misc
+3. To run the controller file, place it in the misc folder in po x (other folders are also fine, but misc is given as an example) ie, place the controller file in ~/pox/pox/misc
 Open terminal, and use the following commands
 cd ~/pox
 ./pox.py log.level
 DEBUG misc. ControllerActive
 The user is required to enter whether it is soft or hard timeout, timeout value and timer value (only for ControllerActive and ControllerActiveZero)
-4. To run the topology file, place it the custom folder in mininet (again, custom folder is just taken as an example)
-ie, place the topolog y file in ~/mininet/custom
+4. To run the topology file, place it the custom folder in mininet (again, custom folder is just taken as an example) ie, place the topolog y file in ~/mininet/custom
 Open another terminal, and use the following commands
 cd ~/mininet/custom
 sudo python3
