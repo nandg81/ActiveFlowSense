@@ -21,9 +21,7 @@ Open terminal, and use the following commands
 
 cd ~/pox
 
-./pox.py log.level
-
-DEBUG misc. ControllerActive
+./pox.py log.level --DEBUG misc. ControllerActive
 
 The user is required to enter whether it is soft or hard timeout, timeout value and timer value (only for ControllerActive and ControllerActiveZero)
 
@@ -33,9 +31,7 @@ Open another terminal, and use the following commands
 
 cd ~/mininet/custom
 
-sudo python3
-
-TopologyFirst .py
+sudo python3 TopologyFirst .py
 
 5. After that, most commands required, like ping etc. can be run on the topology terminal.
 
