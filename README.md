@@ -18,6 +18,7 @@ v. TopologySecond .py : Topology involving 5 hosts and 3 switches.
 3. To run the controller file, place it in the misc folder in po x (other folders are also fine, but misc is given as an example) ie, place the controller file in ~/pox/pox/misc
 
 Open terminal, and use the following commands
+
 cd ~/pox
 
 ./pox.py log.level
@@ -43,7 +44,10 @@ TopologyFirst .py
 References:
 
 [1] Yu C, Lumezanu C, Zhang Y et al (2013) FlowSense: monitoring network utilization with zero measurement cost. In: Proceedings of PANM’13, 2013, pp 31–41
+
 [2] Jamal Hamad, Diyar & Yalda, Kherota & Okumus, Ibrahim Taner. (2015). Getting traffic statistics from network devices in an SDN environment using OpenFlow. 
+
 [3] OpenFlow specification 
 https://opennetworking.org/wp-content/uploads/2014/10/openflow-switch-v1.5.1.pdf
+
 [4] McKeown, Nick & Anderson, Tom & Balakrishnan, Hari & Parulkar, Guru & Peterson, Larry & Rexford, Jennifer & Shenker, Scott & Turner, Jonathan. (2008). OpenFlow: Enabling innovation in campus networks. Computer Communication Review. 38. 69-74. 10.1145/1355734.1355746. 
