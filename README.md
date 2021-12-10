@@ -1,6 +1,6 @@
 # ActiveFlowSense
 
-FlowSense algorithm is combined with active probing so as to increase the frequency at which we get utilization values. 
+FlowSense algorithm is combined with active probing so as to increase the frequency at which we get utilization values. It is implemented using Mininet and POX controller. 
 
 Various existing active and passive network utilization measurement methods require overhead and infrastructure respectively. [1] defines the FlowSense algorithm, which uses an approach wherein the existing control messages in the network are used to measure the utilization. Hence, there is no additional overhead or infrastructure requirements. But this method has various limitations such as in the case of long flows, proactive rules etc. The limitations can be overcome by combining the active probing method with the FlowSense. In cases when a flow duration is greater than a specified value or the time since the last utilization calculation is greater than a specified value, active probing can be done. Therefore, by combining active probing and FlowSense, we get a network utilization measurement mechanism that requires minimal overhead and infrastructure and high accuracy. We have implemented the aforementioned combination in this project and titled it “ActiveFlowSense”.
 
